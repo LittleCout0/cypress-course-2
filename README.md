@@ -1,31 +1,58 @@
-# Testes Automatizados com Cypress - Avançado
+# Cypress Automated Tests
 
-👋 Seja bem vindo(a)!
+[**Escola Talking About Testing**](https://udemy.com/user/walmyr) course with content about legacy code maintenance, request interception and API mock response.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Scenarios for the Website [Hacker Stories](https://wlsf82-hacker-stories.web.app/)
 
-## O que você vai aprender
+##
 
-Durante o curso avançado de Cypress, você vai aprender:
+### Requirements - Windows (10 or +)
 
-- Como criar testes 100% _flakiness-free_
-- Como interagir com a aplicação o mais próximo de como um usuário real faria
-  - Como esperar por um elemento estar visível antes de interagir com ele
-  - Como simular o uso do teclado em vez de clique em botão em funcionalidades de busca
-  - Como esperar por requisições HTTP antes de seguir em frente com os testes
-- Como organizar diferentes testes em seus específicos contextos
-- Como ler o `localStorage` do navegador
-- Como tornar seletores de elementos mais específicos
-- Como simplificar comandos repetitivos
-- Como interceptar e mockar uma API externa para testar o frontend independente do backend
-- Como simular erros no servidor e na rede
-- Como simular lentidão na chamada à uma API
-- Como modificar o relatório de testes padrão para um que combine com o seu estilo 😉
+Install latest [**NodeJS**](https://nodejs.org/en/download/)
 
-## Vamos começar?
+> **_Note_**: Check `Add to PATH` option during the installation
 
-Vá para a seção de [pré-requisitos](./lessons/0.md).
+Install latest [**GIT**](https://git-scm.com/download/win) to clone the repository
 
-___
+##
 
-Um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+### Clone the Repository and Install Packages
+
+In your terminal (with admin privileges), run this command to clone and install all dependencies
+
+```bash
+git clone https://github.com/LittleCout0/playwright-with-cucumber.git && cd playwright-with-cucumber && npm i
+```
+
+To run all tests use the command: `npm run test`\
+To run a specific scenario or feature, use a tag parameter: `npm run test -- -t @example_tag`\
+List of tags
+
+| Feature       | Tag                  |
+| ------------- | -------------------- |
+| User Login    | @loginFeature        |
+| Inventory     | @inventoryFeature    |
+| Shopping Cart | @shoppingCartFeature |
+| Checkout      | @checkoutFeature     |
+
+Run the command below and the tests report will be available in your browser.
+
+```bash
+npm run report && start reports/cucumber_report.html
+```
+
+##
+
+#### Git Repository
+
+GitHub: [_Playwright with Cucumber_](https://github.com/LittleCout0/playwright-with-cucumber)
+
+##
+
+#### Libs
+
+- [Playwright](https://playwright.dev/docs/library) - Webdriver Library
+- [Cucumber](https://www.npmjs.com/package/@cucumber/cucumber) - BDD Framework
+- [Cucumber HTML Reporter](https://www.npmjs.com/package/cucumber-html-reporter) - Report Library
+- [Chai](https://www.npmjs.com/package/chai) - Assertion Library
+- [Prettier](https://www.npmjs.com/package/prettier) - Code formatter
