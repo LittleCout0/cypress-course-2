@@ -21,38 +21,30 @@ Install latest [**GIT**](https://git-scm.com/download/win) to clone the reposito
 In your terminal (with admin privileges), run this command to clone and install all dependencies
 
 ```bash
-git clone https://github.com/LittleCout0/playwright-with-cucumber.git && cd playwright-with-cucumber && npm i
+git clone https://github.com/LittleCout0/cypress-course-adv && cd cypress-course-adv && npm i
 ```
 
 To run all tests use the command: `npm run test`\
-To run a specific scenario or feature, use a tag parameter: `npm run test -- -t @example_tag`\
-List of tags
-
-| Feature       | Tag                  |
-| ------------- | -------------------- |
-| User Login    | @loginFeature        |
-| Inventory     | @inventoryFeature    |
-| Shopping Cart | @shoppingCartFeature |
-| Checkout      | @checkoutFeature     |
+To run with Cypress App use the command: `npm run cy:open`\
 
 Run the command below and the tests report will be available in your browser.
 
 ```bash
-npm run report && start reports/cucumber_report.html
+npm run [WIP]
 ```
 
 ##
 
 #### Git Repository
 
-GitHub: [_Playwright with Cucumber_](https://github.com/LittleCout0/playwright-with-cucumber)
+GitHub: [_Cypress Course - Advanced_](https://github.com/LittleCout0/cypress-course-adv)
 
 ##
 
-#### Libs
+#### Packages
 
-- [Playwright](https://playwright.dev/docs/library) - Webdriver Library
-- [Cucumber](https://www.npmjs.com/package/@cucumber/cucumber) - BDD Framework
-- [Cucumber HTML Reporter](https://www.npmjs.com/package/cucumber-html-reporter) - Report Library
-- [Chai](https://www.npmjs.com/package/chai) - Assertion Library
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress) - Automation Tool
+- [Cypress Localstorage Commands](https://www.npmjs.com/package/cypress-localstorage-commands) - Handles Local Storage
+- [Faker](https://github.com/faker-js/faker) - Generate fake data 
+- [Standardjs](https://standardjs.com/) - JavaScript Standard Style
 - [Prettier](https://www.npmjs.com/package/prettier) - Code formatter
