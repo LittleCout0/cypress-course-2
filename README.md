@@ -24,14 +24,8 @@ In your terminal (with admin privileges), run this command to clone and install 
 git clone https://github.com/LittleCout0/cypress-course-adv && cd cypress-course-adv && npm i
 ```
 
-To run all tests use the command: `npm run test`\
-To run with Cypress App use the command: `npm run cy:open`\
-
-Run the command below and the tests report will be available in your browser.
-
-```bash
-npm run [WIP]
-```
+To run all tests use the command: `npm run test`  
+To run with Cypress App use the command: `npm run cy:open`
 
 ##
 
@@ -45,6 +39,6 @@ GitHub: [_Cypress Course - Advanced_](https://github.com/LittleCout0/cypress-cou
 
 - [Cypress](https://docs.cypress.io/guides/overview/why-cypress) - Automation Tool
 - [Cypress Localstorage Commands](https://www.npmjs.com/package/cypress-localstorage-commands) - Handles Local Storage
-- [Faker](https://github.com/faker-js/faker) - Generate fake data 
+- [Faker](https://github.com/faker-js/faker) - Generate fake data
 - [Standardjs](https://standardjs.com/) - JavaScript Standard Style
 - [Prettier](https://www.npmjs.com/package/prettier) - Code formatter
