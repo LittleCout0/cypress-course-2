@@ -21,7 +21,7 @@ Install latest [**GIT**](https://git-scm.com/download/win) to clone the reposito
 In your terminal (with admin privileges), run this command to clone and install all dependencies
 
 ```bash
-git clone https://github.com/LittleCout0/cypress-legacy && cd cypress-legacy && npm i
+git clone https://github.com/WillCoutinho/cypress-legacy && cd cypress-legacy && npm i
 ```
 
 To run all tests use the command: `npm run test`  
@@ -31,7 +31,7 @@ To run with Cypress App use the command: `npm run cy:open`
 
 #### Git Repository
 
-GitHub: [_Cypress Legacy_](https://github.com/LittleCout0/cypress-legacy)
+GitHub: [_Cypress Legacy_](https://github.com/WillCoutinho/cypress-legacy)
 
 ##
 
